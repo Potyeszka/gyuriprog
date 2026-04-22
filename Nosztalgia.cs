@@ -4,9 +4,9 @@ using System.Text;
 
 namespace gyak9
 {
-    internal class Katamaran : Hajo
+    internal class Nosztalgia : Hajo
     {
-        public Katamaran(int eni, string nev, string tipus, int ar1, int ar2, int ar3) : base( eni,  nev,  tipus,  ar1,  ar2,  ar3)
+        public Nosztalgia(int eni, string nev, string tipus, int ar1, int ar2, int ar3) : base(eni, nev, tipus, ar1, ar2, ar3)
         {
 
         }
@@ -17,6 +17,5 @@ namespace gyak9
             else if (ora == 2) return Ar2 * ora;
             else return Ar3 * ora;
         }
-
     }
 }

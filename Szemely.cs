@@ -4,9 +4,9 @@ using System.Text;
 
 namespace gyak9
 {
-    internal class Katamaran : Hajo
+    internal class Szemely : Hajo
     {
-        public Katamaran(int eni, string nev, string tipus, int ar1, int ar2, int ar3) : base( eni,  nev,  tipus,  ar1,  ar2,  ar3)
+        public Szemely(int eni, string nev, string tipus, int ar1, int ar2, int ar3) : base(eni, nev, tipus, ar1, ar2, ar3)
         {
 
         }
